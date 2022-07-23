@@ -1,0 +1,954 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+}
+body .Page-1 {
+  width: 100%;
+  height: 100vh;
+}
+body .Page-1 header {
+  width: 100%;
+  height: 184px;
+  padding: 22px 143px 106px 143px;
+}
+body .Page-1 header hr {
+  background-color: linear-gradient(#9BAAFA 100%, #367BF5 100%);
+}
+body .Page-1 header .logo-socialmedia {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+body .Page-1 header .navlinks-button {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 23px;
+}
+body .Page-1 header .navlinks-button .navlinks {
+  display: flex;
+  gap: 16px;
+}
+body .Page-1 header .navlinks-button .navlinks .first-btn button {
+  width: 168px;
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(8, 35, 48, 0.16), 0px 1px 2px rgba(8, 35, 48, 0.24);
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 16px;
+  align-items: center;
+  display: flex;
+  letter-spacing: 0.44px;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 15px;
+  border: 1px solid #FFFFFF;
+}
+body .Page-1 header .navlinks-button .navlinks button {
+  width: 136px;
+  height: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background: #F7F9FA;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.44px;
+  color: rgba(0, 0, 0, 0.87);
+  border: 1px solid #F7F9FA;
+  cursor: pointer;
+}
+body .Page-1 header .navlinks-button .right-btn button {
+  width: 189px;
+  height: 40px;
+  border: 1px solid #9BAAFA;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 14px;
+  align-items: center;
+  letter-spacing: 0.75px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #367BF5;
+  text-shadow: 0px 8px 16px rgba(54, 123, 245, 0.1), 0px 4px 8px rgba(54, 123, 245, 0.16);
+  cursor: pointer;
+}
+body .Page-1 main {
+  width: 100%;
+  height: calc(100vh - 184px);
+  text-align: center;
+  padding: 105px 40px 30px 40px;
+}
+body .Page-1 main h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 51px;
+  font-size: 48px;
+  align-items: center;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+body .Page-1 main p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 32px;
+}
+body .Page-1 main .buttons {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+body .Page-1 main .buttons .first-button button {
+  width: 176px;
+  height: 40px;
+  background: #367BF5;
+  box-shadow: 0px 16px 24px rgba(54, 123, 245, 0.16), 0px 6px 12px rgba(54, 123, 245, 0.16);
+  border-radius: 6px;
+  border: 1px solid #367BF5;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 14px;
+  align-items: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+body .Page-1 main .buttons .second-button button {
+  width: 168px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid #9BAAFA;
+  background-color: #FFFFFF;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 14px;
+  align-items: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #367BF5;
+  text-shadow: 0px 8px 16px rgba(54, 123, 245, 0.1), 0px 4px 8px rgba(54, 123, 245, 0.16);
+}
+body .Page-1 main img {
+  width: 1200px;
+  height: 800px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+body .Page-2 {
+  width: 100%;
+  height: 100vh;
+  background: url(./images/2\ CTA.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+}
+body .Page-3 {
+  width: 100%;
+  height: 100vh;
+  padding: 80px 0 80px 50px;
+}
+body .Page-3 .header h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 60px;
+  font-size: 60px;
+  letter-spacing: -0.02em;
+  color: #80688E;
+  -webkit-background-clip: text;
+          background-clip: text;
+  margin-bottom: 72px;
+}
+body .Page-3 .browse-music-collection {
+  width: 100%;
+  height: 336px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+body .Page-3 .browse-music-collection .icon-text {
+  width: 588px;
+  height: 304px;
+  display: flex;
+  margin-right: 122px;
+}
+body .Page-3 .browse-music-collection .icon-text img {
+  width: 72px;
+  height: 72px;
+}
+body .Page-3 .browse-music-collection .icon-text .text {
+  width: 444px;
+  height: 252px;
+  margin: 0 120px 0 24px;
+}
+body .Page-3 .browse-music-collection .icon-text .text h1 {
+  width: 444px;
+  height: 40px;
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34px;
+  color: black;
+  margin-bottom: 16px;
+}
+body .Page-3 .browse-music-collection .icon-text .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 30px;
+}
+body .Page-3 .browse-music-collection .icon-text .text span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .Page-3 .browse-music-collection .icon-text .text span a {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  color: #367BF5;
+  text-decoration: none;
+}
+body .Page-3 .browse-music-collection .icon-text .text span img {
+  width: 20px;
+  height: 20px;
+}
+body .Page-3 .browse-music-collection .image .bio img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 1615px;
+  left: 755px;
+}
+body .Page-3 .browse-music-collection .image img {
+  width: 466px;
+  height: 336px;
+}
+body .Page-4 {
+  width: 100%;
+  height: 100vh;
+}
+body .Page-4 .release-your-limits {
+  width: 100%;
+  height: 336px;
+  display: flex;
+  align-items: center;
+  gap: 122px;
+  margin-bottom: 80px;
+}
+body .Page-4 .release-your-limits .image .line-chart img {
+  position: absolute;
+  width: 214.88px;
+  height: 191px;
+  left: 310px;
+  top: 2130px;
+}
+body .Page-4 .release-your-limits .image img {
+  width: 466px;
+  height: 336px;
+}
+body .Page-4 .release-your-limits .icon-text {
+  width: 588px;
+  height: 304px;
+  display: flex;
+  margin-right: 122px;
+}
+body .Page-4 .release-your-limits .icon-text img {
+  width: 72px;
+  height: 72px;
+}
+body .Page-4 .release-your-limits .icon-text .text {
+  width: 444px;
+  height: 252px;
+  margin: 0 120px 0 24px;
+}
+body .Page-4 .release-your-limits .icon-text .text h1 {
+  width: 444px;
+  height: 40px;
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34px;
+  color: black;
+  margin-bottom: 16px;
+}
+body .Page-4 .release-your-limits .icon-text .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 30px;
+}
+body .Page-4 .release-your-limits .icon-text .text span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .Page-4 .release-your-limits .icon-text .text span a {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  color: #367BF5;
+  text-decoration: none;
+}
+body .Page-4 .release-your-limits .icon-text .text span img {
+  width: 20px;
+  height: 20px;
+}
+body .Page-4 .how-to-reach-a-success {
+  width: 100%;
+  height: 336px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+body .Page-4 .how-to-reach-a-success .icon-text {
+  width: 588px;
+  height: 304px;
+  display: flex;
+  margin-right: 122px;
+}
+body .Page-4 .how-to-reach-a-success .icon-text img {
+  width: 72px;
+  height: 72px;
+}
+body .Page-4 .how-to-reach-a-success .icon-text .text {
+  width: 444px;
+  height: 252px;
+  margin: 0 120px 0 24px;
+}
+body .Page-4 .how-to-reach-a-success .icon-text .text h1 {
+  width: 444px;
+  height: 40px;
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34px;
+  color: black;
+  margin-bottom: 16px;
+}
+body .Page-4 .how-to-reach-a-success .icon-text .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 30px;
+}
+body .Page-4 .how-to-reach-a-success .icon-text .text span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .Page-4 .how-to-reach-a-success .icon-text .text span a {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  color: #367BF5;
+  text-decoration: none;
+}
+body .Page-4 .how-to-reach-a-success .icon-text .text span img {
+  width: 20px;
+  height: 20px;
+}
+body .Page-4 .how-to-reach-a-success .image .video img {
+  position: absolute;
+  top: 2670px;
+  right: 385px;
+  width: 132px;
+  height: 134.93px;
+  filter: drop-shadow(0px 16px 24px rgba(8, 35, 48, 0.08)) drop-shadow(0px 6px 12px rgba(8, 35, 48, 0.14));
+}
+body .Page-4 .how-to-reach-a-success .image img {
+  width: 466px;
+  height: 336px;
+}
+body .Page-5 {
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+}
+body .Page-5 .bottom {
+  width: 100%;
+  height: 256px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 120px;
+}
+body .Page-5 .bottom img {
+  width: 88px;
+  height: 96px;
+}
+body .Page-5 .bottom .middle-text {
+  width: 744px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 24px 0 26px;
+}
+body .Page-5 .bottom .middle-text h2 {
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 38px;
+  font-size: 34px;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.87);
+}
+body .Page-5 .bottom .middle-text span {
+  display: flex;
+  align-items: center;
+}
+body .Page-5 .bottom .middle-text span b {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+body .Page-5 .bottom .middle-text span p {
+  font-size: 20px;
+  color: rgb(206, 67, 90);
+}
+body .Page-5 .bottom button {
+  width: 270px;
+  height: 64px;
+  background: #367BF5;
+  box-shadow: 0px 16px 24px rgba(54, 123, 245, 0.16), 0px 6px 12px rgba(54, 123, 245, 0.16);
+  border-radius: 12px;
+  border: 1px solid #367BF5;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+}
+body .Page-5 .discover-antifeatures {
+  width: 100%;
+  height: 224px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+body .Page-5 .discover-antifeatures h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 60px;
+  font-size: 60px;
+  letter-spacing: -0.02em;
+  color: #80688E;
+  margin-bottom: 16px;
+}
+body .Page-5 .discover-antifeatures p {
+  width: 100%;
+  height: 80px;
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  color: #367BF5;
+}
+body .Page-6 {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 368px);
+  justify-content: center;
+  gap: 16px;
+}
+body .Page-6 .slow-onboarding {
+  width: 368px;
+  height: 208px;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+body .Page-6 .slow-onboarding .text {
+  width: 272px;
+  height: 176px;
+}
+body .Page-6 .slow-onboarding .text h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 32px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+body .Page-6 .slow-onboarding .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #5E6366;
+}
+body .Page-6 .slow-onboarding img {
+  width: 48px;
+  height: 48px;
+}
+body .Page-6 .complicated-integration {
+  width: 368px;
+  height: 208px;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+body .Page-6 .complicated-integration .text {
+  width: 272px;
+  height: 176px;
+}
+body .Page-6 .complicated-integration .text h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 32px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+body .Page-6 .complicated-integration .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #5E6366;
+}
+body .Page-6 .complicated-integration img {
+  width: 48px;
+  height: 48px;
+}
+body .Page-6 .api-seriously {
+  width: 368px;
+  height: 208px;
+  display: flex;
+  gap: 16px;
+  background: #E6EFFF;
+  border-radius: 8px;
+  padding: 16px;
+}
+body .Page-6 .api-seriously .text {
+  width: 272px;
+  height: 176px;
+}
+body .Page-6 .api-seriously .text h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 32px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+body .Page-6 .api-seriously .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #5E6366;
+}
+body .Page-6 .api-seriously img {
+  width: 48px;
+  height: 48px;
+}
+body .Page-6 .highest-pricing {
+  width: 368px;
+  height: 208px;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  box-shadow: 0px 4px 8px rgba(54, 123, 245, 0.16), 0px 2px 4px rgba(54, 123, 245, 0.24);
+  border-radius: 8px;
+}
+body .Page-6 .highest-pricing .text {
+  width: 272px;
+  height: 176px;
+}
+body .Page-6 .highest-pricing .text h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 32px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+body .Page-6 .highest-pricing .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #5E6366;
+}
+body .Page-6 .highest-pricing img {
+  width: 48px;
+  height: 48px;
+}
+body .Page-6 .lost-in-industry-support {
+  width: 368px;
+  height: 208px;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+body .Page-6 .lost-in-industry-support .text {
+  width: 272px;
+  height: 176px;
+}
+body .Page-6 .lost-in-industry-support .text h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 32px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+body .Page-6 .lost-in-industry-support .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #5E6366;
+}
+body .Page-6 .lost-in-industry-support img {
+  width: 48px;
+  height: 48px;
+}
+body .Page-6 .so-desecured {
+  width: 368px;
+  height: 208px;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+body .Page-6 .so-desecured .text {
+  width: 272px;
+  height: 176px;
+}
+body .Page-6 .so-desecured .text h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 32px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+body .Page-6 .so-desecured .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #5E6366;
+}
+body .Page-6 .so-desecured img {
+  width: 48px;
+  height: 48px;
+}
+body .Page-7 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .Page-7 .built-by-components {
+  width: 564px;
+  height: 352px;
+  display: flex;
+  gap: 24px;
+}
+body .Page-7 .built-by-components .image img {
+  width: 140px;
+  height: 140px;
+}
+body .Page-7 .built-by-components .text {
+  width: 365px;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+}
+body .Page-7 .built-by-components .text h3 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  letter-spacing: 0.15px;
+  color: #2FA84F;
+  margin-bottom: 16px;
+}
+body .Page-7 .built-by-components .text h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 60px;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  color: #3E4345;
+  margin-bottom: 8px;
+}
+body .Page-7 .built-by-components .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 40px;
+}
+body .Page-7 .built-by-components .text button {
+  width: 196px;
+  height: 56px;
+  background: #2FA84F;
+  box-shadow: 0px 4px 8px rgba(47, 168, 79, 0.16), 0px 2px 4px rgba(47, 168, 79, 0.24);
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+  border: 1px solid #02f042;
+  cursor: pointer;
+}
+body .Page-7 .material-websites {
+  width: 564px;
+  height: 352px;
+  display: flex;
+  gap: 24px;
+}
+body .Page-7 .material-websites .image img {
+  width: 140px;
+  height: 140px;
+}
+body .Page-7 .material-websites .text {
+  width: 365px;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+}
+body .Page-7 .material-websites .text h3 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  letter-spacing: 0.15px;
+  color: #367BF5;
+  margin-bottom: 16px;
+}
+body .Page-7 .material-websites .text h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 60px;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  color: #3E4345;
+  margin-bottom: 8px;
+}
+body .Page-7 .material-websites .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 40px;
+}
+body .Page-7 .material-websites .text button {
+  width: 196px;
+  height: 56px;
+  background: #367BF5;
+  box-shadow: 0px 4px 8px rgba(47, 168, 79, 0.16), 0px 2px 4px rgba(47, 168, 79, 0.24);
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+  border: 1px solid #1062f0;
+  cursor: pointer;
+}
+body .Page-8 {
+  width: 100%;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+  align-items: center;
+}
+body .Page-8 .Logo {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 52px;
+}
+body .Page-8 .navlinks {
+  width: 100%;
+  height: 64px;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 40px;
+}
+body .Page-8 .navlinks a {
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+body .Page-8 .subscribe {
+  width: 564px;
+  height: 60px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0px 20px 32px rgba(8, 35, 48, 0.06), 0px 8px 16px rgba(8, 35, 48, 0.1);
+  align-items: center;
+  padding: 7px 10px 10px 10px;
+}
+body .Page-8 .subscribe input {
+  width: 350px;
+  height: 38px;
+  border: 1px solid #FFFFFF;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  color: #919699;
+}
+body .Page-8 .subscribe button {
+  width: 172px;
+  height: 44px;
+  background: #C6CACC;
+  border-radius: 4px;
+  border: 1px solid #b1b1b1;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 32px;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+}
+body .Page-8 .s-media {
+  width: 368px;
+  height: 56px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 48px;
+}
+body .Page-8 p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #5E6366;
+}/*# sourceMappingURL=style.css.map */
